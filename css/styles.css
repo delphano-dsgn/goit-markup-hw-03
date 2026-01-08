@@ -135,7 +135,7 @@ color: #2e2f42;
 
 .hero-btn {
     display: block;
-    min-width: 169 px;
+    min-width: 169px;
     border: none;
     margin: 0 auto;
     font-family: inherit;
@@ -191,7 +191,9 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+.benefits-item {
+    width: calc((100% - 3*24px) / 4);
+}
 /* team */
 .team {
     background-color: #f4f4fd;
